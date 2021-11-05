@@ -1,10 +1,10 @@
-import React,{ Component } from "react";
+import React from "react";
 
-class Welcome extends Component{
-    render(){
-        return <h1>Hello World! from class component</h1>
-    }
+const jsx_demo=()=>{
+  return (
+      <div>
+          <h1>Hello from JSX component</h1>
+      </div>
+  )
 }
-
-
-export default Welcome
+export default jsx_demo
