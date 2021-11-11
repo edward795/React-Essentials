@@ -7,12 +7,15 @@ import Counter from './setState/counter';
 import FunctionClick from './Event Handling/Functional_handling';
 import Handler from './Event Handling/Class_Handling';
 import EventBinding from './Event Binding/event_binding';
+import Parent from './ChildToParentCall/ParentComponent';
 
 function App() {
   return (
     <div className="App">
      
-    <EventBinding/>
+      <Parent/>
+
+    {/* <EventBinding/> */}
       
     { /*
     <FunctionClick/>
