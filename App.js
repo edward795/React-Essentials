@@ -8,16 +8,38 @@ import FunctionClick from './Event Handling/Functional_handling';
 import Handler from './Event Handling/Class_Handling';
 import EventBinding from './Event Binding/event_binding';
 import Parent from './ChildToParentCall/ParentComponent';
+import Conditional from './Conditional Rendering/UserGreeting';
+import NameList from './List Rendering/List';
+import List from './Lists & Keys/keyProps';
+import Stylesheets from './CSS in React/stylesheets';
+import InlineCss from './CSS in React/Inline';
+import './appStyles.css'
+import styles from './appStyles.module.css'
+import Form from './forms/form';
+
 
 function App() {
+
+
   return (
     <div className="App">
      
-      <Parent/>
+    <Form/>
+
+      {/* <h2 className='error'>Error</h2>
+      <h2 className={styles.success}>Succes</h2>
+
+      <InlineCss/> */}
 
     {/* <EventBinding/> */}
       
     { /*
+     
+      <Stylesheets primary={true}/>
+      <List/>
+    <NameList/>
+      <Conditional/>
+     <Parent/>
     <FunctionClick/>
       <Handler/>
      <Counter/>
