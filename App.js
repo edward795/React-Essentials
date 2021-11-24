@@ -16,15 +16,17 @@ import InlineCss from './CSS in React/Inline';
 import './appStyles.css'
 import styles from './appStyles.module.css'
 import Form from './forms/form';
-
+import LifecycleA from './Component Mounting LifeCycle/lifecycleA';
 
 function App() {
 
 
   return (
     <div className="App">
+
+      <LifecycleA/>
      
-    <Form/>
+    {/* <Form/> */}
 
       {/* <h2 className='error'>Error</h2>
       <h2 className={styles.success}>Succes</h2>
